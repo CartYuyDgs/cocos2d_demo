@@ -11,7 +11,7 @@ class Mylayer(cocos.layer.Layer):
 
 if __name__ == '__main__':
     director = cocos.director.director
-    director.init()
+    director.init(caption="abc")
     main_layer = Mylayer()
     main_scene = cocos.scene.Scene(main_layer)
     director.run(main_scene)
